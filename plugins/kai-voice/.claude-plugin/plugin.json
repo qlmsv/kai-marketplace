@@ -1,0 +1,18 @@
+{
+  "name": "kai-voice",
+  "version": "1.0.0",
+  "description": "Пишет тексты в голосе Кая - независимого ИИ-консультанта. Знает лексику, ритм, обороты и стоп-слова. Универсальный: умеет личный рефлексивный регистр и продающий с CTA.",
+  "author": {
+    "name": "Kai",
+    "url": "https://github.com/qlmsv"
+  },
+  "repository": "https://github.com/qlmsv/kai-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "voice",
+    "russian",
+    "personal-brand",
+    "kai",
+    "writing"
+  ]
+}
