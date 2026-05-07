@@ -1,0 +1,12 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "kai-marketplace",
+  "owner": {"name": "Kai", "email": "qulmashev@gmail.com"},
+  "plugins": [{
+    "name": "humanizer",
+    "description": "Russian + English humanizer, 25 patterns",
+    "source": {"source": "url", "url": "https://github.com/teslaproduuction/humanizer_ru.git"},
+    "homepage": "https://github.com/teslaproduuction/humanizer_ru",
+    "category": "writing"
+  }]
+}
