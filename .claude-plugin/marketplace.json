@@ -1,12 +1,35 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "kai-marketplace",
-  "owner": {"name": "Kai", "email": "qulmashev@gmail.com"},
-  "plugins": [{
-    "name": "humanizer",
-    "description": "Russian + English humanizer, 25 patterns",
-    "source": {"source": "url", "url": "https://github.com/teslaproduuction/humanizer_ru.git"},
-    "homepage": "https://github.com/teslaproduuction/humanizer_ru",
-    "category": "writing"
-  }]
+  "description": "Личный маркетплейс Кая для сторонних плагинов",
+  "owner": {
+    "name": "Kai",
+    "email": "qulmashev@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "humanizer",
+      "description": "Убирает признаки AI-генерации из русского и английского текста. 25 паттернов плюс жёсткие запреты, включая длинное тире.",
+      "author": {
+        "name": "teslaproduuction",
+        "url": "https://github.com/teslaproduuction"
+      },
+      "category": "writing",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/teslaproduuction/humanizer_ru.git"
+      },
+      "homepage": "https://github.com/teslaproduuction/humanizer_ru"
+    },
+    {
+      "name": "kai-voice",
+      "description": "Пишет тексты в голосе Кая - независимого ИИ-консультанта. Знает лексику, ритм, обороты, стоп-слова. Поддерживает личный и продающий регистры.",
+      "author": {
+        "name": "Kai",
+        "url": "https://github.com/qlmsv"
+      },
+      "category": "writing",
+      "source": "./plugins/kai-voice"
+    }
+  ]
 }
